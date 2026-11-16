@@ -2,6 +2,8 @@
 
 This is the first milestone in my Embedded Linux Driver and BSP learning project. A macOS user-space C program uses `termios` to configure a CP2102 USB-to-UART adapter at 115200 baud, 8N1. In the recorded hardware loopback, it sent five bytes (`HELLO`), received all five, and verified the payload byte for byte.
 
+[LumenBit Lab 技術部落格](docs/README.md)
+
 | Source | Purpose |
 | --- | --- |
 | [`uart_client.c`](uart_client.c) | UART configuration, partial read and write handling, and payload verification |
