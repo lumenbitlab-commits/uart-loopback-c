@@ -1,0 +1,15 @@
+# Build products
+/uart_client
+/ring_buffer
+/build/
+/output/
+*.o
+*.dSYM/
+
+# Local settings and credentials
+.DS_Store
+/.vscode/
+.env
+.env.*
+*.pem
+*.key
